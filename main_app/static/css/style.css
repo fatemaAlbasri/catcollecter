@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer.page-footer {
+  padding-top: 0;
+  text-align: right;
+}
+
+.flex-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container {
+  margin: 25px;
+}
+
+.image-container img {
+  height: 120px;
+  width: 120px;
+}
